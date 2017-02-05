@@ -51,7 +51,7 @@ func PrintHelp() {
 	fmt.Printf("	interfaces, i    prints /external_interfaces/\n")
 	fmt.Printf("	modules, m       prints /modules/\n")
 	fmt.Printf("	links, l         prints /links/\n")
-	fmt.Printf("	table, t         prints tables\n\n")
+	fmt.Printf("	table, t         prints /tables/\n\n")
 
 	fmt.Printf("	help, h          print help\n")
 	fmt.Printf("\n")

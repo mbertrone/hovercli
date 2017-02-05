@@ -31,7 +31,7 @@ func Cli(dataplaneref *hoverctl.Dataplane) {
 	dataplane := dataplaneref
 	for {
 		reader := bufio.NewReader(os.Stdin)
-		fmt.Print("cli@iov-ovn$ ")
+		fmt.Print("cli@hovercli$ ")
 		line, _ := reader.ReadString('\n')
 
 		line = TrimSuffix(line, "\n")
